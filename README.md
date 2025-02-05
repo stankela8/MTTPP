@@ -16,7 +16,7 @@ Testovi su organizirani u hijerarhiju s fokusom na testiranje **web aplikacija**
 ---
 Za pokretanje projekta potrebno je:
 ```sh
-git clone https://github.com/USERNAME/Testiranje-Projekt.git
+git clone https://github.com/stankela8/Testiranje-Projekt.git
 ```
 Nakon kloniranja, uđite u direktorij:
 ```sh
@@ -34,10 +34,11 @@ mvn test
 mvn test -DsuiteXmlFile=testng.xml
 ```
 3️⃣ Pokretanje testova u IntelliJ IDEA
-Otvorite IntelliJ IDEA i učitajte projekt.
-Idite na src/test/java/tests direktorij.
-Desni klik na testnu klasu (CoinDeskAPITest.java ili bilo koji drugi test).
-Kliknite Run 'CoinDeskAPITest'.
+
+1. Otvorite IntelliJ IDEA i učitajte projekt.
+2. Idite na src/test/java/tests direktorij.
+3. Desni klik na testnu klasu (CoinDeskAPITest.java ili bilo koji drugi test).
+4. Kliknite Run 'CoinDeskAPITest'.
 
 ## 🧪 **Opis testnih slučajeva**
 
